@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 55, 255, 0) 0%, #0084FF 100%);
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+
+}
+p{
+    color: gray;
+}
+header{
+    padding-top: 50px;
+}
+header > h1{
+    color: white;
+    margin: 20px 0px;
+}
+#header-p1{
+    font-weight: bold;
+    color: #96BB7C;
+}
+#header-p2{
+    color: #F6F6F6;
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: 20px 0px;
+    overflow-x: auto;
+    width: 100%;
+}
+
+.card{
+    background-color: white;
+    border-radius: 10px;
+    height: 602px;
+    width: 241px;
+    margin-bottom: 20px;
+}
+.upper{
+    height: 50%;
+    width: 100%;
+}
+.lower{
+    height: 50%;
+    padding: 25px 25px 35px 25px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.card-img{
+   object-fit: cover; 
+   object-position: center;
+   border-radius: 10px 10px 0px 0px;
+}
+.training{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.training-title{
+    flex: 1;
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+.rating{
+    background-color: #2D4059;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+    padding: 5px 10px;
+}
+.card-title{
+    font-size: 0.8rem;
+    color: #252B42;
+}
+.description-card{
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+.learn-btn{
+    border: 2px solid grey;
+    padding: 15px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.8rem;
+    color: #96BB7C;
+    font-weight: bold;
+}
+.sales{
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 0.7rem;
+    color: #737373;
+}
+.old-rate{
+    color: #BDBDBD;
+    font-weight: bold;
+}
+.current-rate{
+    color: #FFAB71;
+    font-weight: bold;
+}
+
+@media (max-width: 600px){
+    header{
+        width: 100%;
+    }
+}
+
