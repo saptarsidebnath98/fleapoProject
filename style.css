@@ -22,6 +22,11 @@ header > h1{
     color: white;
     margin: 20px 0px;
 }
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+/* header part */
 #header-p1{
     font-weight: bold;
     color: #96BB7C;
@@ -29,11 +34,8 @@ header > h1{
 #header-p2{
     color: #F6F6F6;
 }
-.container{
-    width: 80%;
-    margin: 0px auto;
-}
 
+/* card container */
 .cardContainer{
     display: flex;
     flex-direction: row;
@@ -50,10 +52,17 @@ header > h1{
     width: 241px;
     margin-bottom: 20px;
 }
+/* upper part of card container */
 .upper{
     height: 50%;
     width: 100%;
 }
+.card-img{
+   object-fit: cover; 
+   object-position: center;
+   border-radius: 10px 10px 0px 0px;
+}
+/* lower part of card container */
 .lower{
     height: 50%;
     padding: 25px 25px 35px 25px;
@@ -62,11 +71,6 @@ header > h1{
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-}
-.card-img{
-   object-fit: cover; 
-   object-position: center;
-   border-radius: 10px 10px 0px 0px;
 }
 .training{
     display: flex;
@@ -94,7 +98,10 @@ header > h1{
 .description-card{
     font-size: 0.7rem;
     font-weight: 600;
+    text-wrap: wrap;
 }
+
+/* learn Button */
 .learn-btn{
     border: 2px solid grey;
     padding: 15px;
@@ -107,6 +114,7 @@ header > h1{
     color: #96BB7C;
     font-weight: bold;
 }
+/* price section */
 .sales{
     display: flex;
     gap: 10px;
